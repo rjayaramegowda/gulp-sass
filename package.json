@@ -1,0 +1,12 @@
+{
+  "name": "gulpjs4sass",
+  "version": "1.0.0",
+  "description": "Gulp Sass",
+  "author": "Ravichandran",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0"
+  }
+}
