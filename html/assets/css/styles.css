@@ -1,11 +1,26 @@
 body {
-    font-size: 14px;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
 }
+
+.btn:focus, .btn.focus, .border-focus-0:focus, border-focus-0.focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.g-font-size-13
+{
+    font-size: 13px
+} 
 
 .g-font-size-14
 {
     font-size: 14px
 } 
+
+.g-font-size-16 {
+    font-size: 16px;
+}
 
 .g-font-size-44 {
     font-size: 44px;
@@ -14,3 +29,28 @@ body {
 .g-bg-opacity-dark-7 {
     background-color: rgba(0, 0, 0, .7);
 }
+
+/*
+    Components  
+*/
+
+.icon-v1 {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: none;
+    font-size: 20px;    
+    line-height: 38px;
+}
+
+.shadow-v3 {
+    box-shadow: 0 0 .3rem rgba(0, 0, 0, 0.3) !important;
+}
+
+/*
+    Override bootstrap
+*/
+.btn-light {
+    background-color: #fff;
+}
+
