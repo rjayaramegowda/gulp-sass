@@ -42,9 +42,15 @@ body {
     font-size: 44px;
 }
 
+.g-font-weight-500 {
+    font-weight: 500;
+}
+
 .g-bg-opacity-dark-7 {
     background-color: rgba(0, 0, 0, .7);
 }
+
+
 
 /*
     Components  
@@ -70,3 +76,9 @@ body {
     background-color: #fff;
 }
 
+/*
+Custom
+*/
+.bg-danger-opacity-1 {
+    background-color: rgba(220, 53, 69, .1);;
+}
