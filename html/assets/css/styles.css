@@ -82,3 +82,32 @@ Custom
 .bg-danger-opacity-1 {
     background-color: rgba(220, 53, 69, .1);;
 }
+
+/*
+    Standard Icon Size
+*/
+
+.w-256 {
+    width: 256px;
+    height: 256px;;
+}
+
+.w-48 {
+    width: 48px;
+    height: 48px;;
+}
+
+.w-32 {
+    width: 32px;
+    height: 32px;;
+}
+
+.w-24 {
+    width: 24px;
+    height: 24px;;
+}
+
+.w-16 {
+    width: 16px;
+    height: 16px;
+}
